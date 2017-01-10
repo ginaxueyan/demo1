@@ -1,0 +1,1138 @@
+@charset "utf-8";
+
+/*
+ * 
+ * 公共样式
+ 
+ * */
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.cl {
+	clear: both;
+}
+
+
+/**********头部样式--start*************/
+
+#page {
+	width: 980px;
+	margin: 0px auto;
+}
+
+.head {
+	background: url(../imgs/topbg.gif) repeat-x top left;
+	padding-top: 50px;
+}
+
+.head_t {
+	height: 112px;
+}
+
+.head_t .logo {
+	width: 378px;
+	height: 112px;
+}
+
+.head_t .phone {
+	width: 370px;
+	height: 112px;
+	line-height: 112px;
+}
+
+.head_t .phone .phone_text {
+	width: 370px;
+	height: 112px;
+	font-size: 18px;
+	color: #e843bb;
+}
+
+.link {
+	height: 25px;
+	padding-left: 40px;
+	padding-bottom: 12px;
+	border-bottom: 4px solid #333;
+}
+
+.link ul {
+	width: 980px;
+	height: 25px;
+}
+
+.link ul li {
+	float: left;
+	width: 150px;
+	text-align: center;
+}
+
+.link ul li a {
+	font-size: 16px;
+	color: #e843bb;
+}
+
+.link ul li a:hover {
+	color: #e843bb;
+	font-weight: bold;
+}
+
+
+/**********头部样式--end*************/
+
+
+/************八厘米首页样式代码--start*****************/
+
+.main {
+	height: auto;
+	margin-top: 15px;
+}
+
+.main .flicker-example {
+	width: 980px;
+	height: 380px;
+	overflow: hidden;
+}
+/*.main .flicker-example ul{
+	width: 980px;
+	height: 380px;
+}
+.main .flicker-example ul li{
+	width: 980px;
+	height: 380px;
+}
+.main .flicker-example img {
+	width: 980px;
+	height: 380px;
+	background-size: cover;
+	display: inline-block;
+}*/
+
+.content_news {
+	width: 100%;
+	height: 220px;
+	border-bottom: 1px solid #5e5e5e;
+}
+
+.content_news_left,
+.content_news_right {
+	width: 50%;
+	height: 180px;
+	margin-top: 15px;
+}
+
+.news_title,
+.content_mid_title,
+.content_link_title,
+.sunday_course_title,
+.sunday_course_title_play{
+	width: 210px;
+	height: 20px;
+	padding-bottom: 8px;
+	background: url(../imgs/title_line.gif) no-repeat bottom;
+}
+
+.news_title h3,
+.content_mid_title h3,
+.content_link h3
+{
+	width: 210px;
+	height: 22px;
+	color: #e843bb;
+	font-size: 18px;
+	padding-left: 6px;
+	letter-spacing: 4px;
+}
+.news_bottom {
+	margin-top: 40px;
+	width: 100%;
+	height: 200px;
+}
+.news_img,
+.news_img a img,
+.content_mid_img a,
+.content_mid_img {
+	width: 196px;
+	height: 139px;
+}
+.content_mid_img{
+	display: inline-block;
+}
+.news_list {
+	width: 270px;
+	height: 120px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.news_list ul {
+	width: 270px;
+	height: 116px;
+}
+
+.news_list ul li {
+	width: 270px;
+	height: 24px;
+	line-height: 24px;
+	overflow: hidden;
+}
+
+.icon {
+	width: 4px;
+	height: 4px;
+	display: inline-block;
+	background-color: #4b4e5b;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+.news_list ul li a {
+	color: #4b4e5b;
+}
+
+.news_list ul li a:hover {
+	color: #e843bb;
+}
+
+
+/************content_mid--start***************/
+
+.content_mid {
+	width: 100%;
+	height: 410px;
+	margin-top: 15px;
+}
+
+.content_sunday {
+	width: 284px;
+	height: 400px;
+	margin-top: 14px;
+	border-right: 2px dashed #eee;
+}
+
+.content_mid_bottom {
+	width: 100%;
+	height: 270px;
+	margin-top: 16px;
+}
+
+.content_mid_img {
+	width: 196px;
+	height: 139px;
+	display: inline-block;
+}
+
+.content_mid_text {
+	margin-top: 10px;
+	text-overflow: ellipsis;
+	width: 240px;
+	height: 120px;
+	line-height: 24px;
+}
+
+.content_mid_active {
+	width: 110px;
+	height: 40px;
+	margin-top: 20px;
+}
+
+.content_mid_active ul {
+	width: 100px;
+	height: 40px;
+}
+
+.content_mid_active ul li {
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+}
+
+.content_mid_active ul li a,
+.content_mid_link {
+	color: #e843bb;
+}
+
+.icon-color {
+	background-color: #e843bb;
+}
+
+.content_factory,
+.content_tea {
+	padding-left: 60px;
+}
+
+.content_tea {
+	border-right: none;
+}
+
+
+/************content_mid--end***************/
+
+
+/*************content_phone--start*****************/
+
+.content_phone {
+	height: 110px;
+	margin-top: 12px;
+}
+
+.content_phone ul {
+	height: 110px;
+}
+
+.content_phone ul li {
+	background: url(../imgs/dgbg.gif) no-repeat;
+	float: left;
+	width: 466px;
+	height: 60px;
+	line-height: 50px;
+	padding-left: 24px;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
+.content_phone ul li span,
+.content_phone ul li a
+ {
+	color: #e843bb;
+	margin-left: 70px;
+}
+
+.content_phone ul li a{
+	margin-left: 52px;
+}
+/*************content_phone--end*****************/
+
+/***************友情链接--start**********************/
+
+.content_link{
+	height: 100px;
+	margin-top: 16px;
+}
+
+.link_list{
+	width: 940px;
+	height: 40px;
+	margin: 30px auto;
+}
+.link_list ul{
+	width: 940px;
+	height: 40px;
+}
+.link_list ul li{
+	float: left;
+	margin-right: 14px;
+}
+.link_list ul li a{
+	color: #e843bb;
+}
+/***************友情链接--end**********************/
+/************八厘米首页样式代码--end*****************/
+
+/*************底部内容区域--start*********************/
+.bottom_content{
+	background: url(../imgs/bottombg.gif) repeat-x bottom;
+	padding-bottom: 50px;
+	margin-top: 30px;
+	clear: both;
+}
+.bottom_text{
+	text-align: center;
+}
+/*************底部内容区域--end*********************/
+
+
+
+/*************剧汇星期天页面样式代码--start***************/
+.sunday_img{
+	width: 226px;
+	height: 172px;
+	margin-left: 18px;
+}
+.sunday_img a{
+	width: 226px;
+	height: 172px;
+	display: block;
+}
+.sunday_right_list{
+	border-bottom: 1px solid #333333;
+	padding-bottom: 26px;
+	}
+
+/*************剧汇星期天页面样式代码--end***************/
+
+
+
+/***************************登录页面样式代码--start*********************/
+
+.login_title,
+.about_title{
+	width: 900px;
+	height: 164px;
+	margin: 32px 0px 0px 82px;
+}
+.login_img,
+.about_img{
+	width: 265px;
+	height: 172px;
+}
+.login_img a,
+.about_img a{
+	width: 265px;
+	height: 172px;
+	display: block;
+}
+
+.login_text,
+.about_text{
+	width: 518px;
+	height: 150px;
+	margin: 30px 0px 0px 34px;
+}
+
+.login_text strong,
+.about_text strong{
+	font-size: 14px;
+	height: 20px;
+	line-height: 20px;
+	font-weight: bold;
+}
+.login_text p,
+.about_text p,
+.company_content p,
+.company_linina_content p{
+	height: 24px;
+	line-height: 24px;
+	text-indent: 1.5em;
+}
+.login_wrap{
+	width: 100%;
+	height: 360px;
+	margin-bottom: 80px;
+	border-bottom: 1px solid #555;
+}
+.login_form_title,
+.company_title,
+.company_linian_title,
+.address_phone,
+.recommend_title{
+	width: 210px;
+	height: 20px;
+	margin-top: 80px;
+	padding-bottom: 10px;
+	background: url(../imgs/title_line.gif) no-repeat bottom;
+}
+.login_form_title h3,
+.company_title h3,
+.address_phone h3,
+.recommend_title h3{
+	width: 210px;
+	height: 22px;
+	color: #e843bb;
+	font-size: 16px;
+	padding-left: 6px;
+	letter-spacing: 4px;
+}
+
+.login_form{
+	width: 400px;
+	height: 190px;
+	margin: 80px auto;
+	
+}
+
+.login_input span{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	display: inline-block;
+	color: #000000;
+	text-align: right;
+}
+.login_input1,
+.login_input2{
+	width: 296px;
+	height: 35px;
+	outline: none;
+	text-indent: 6px;
+	background: url(../imgs/loginbg01.gif) no-repeat;
+}
+
+.login_submit{
+	width: 90px;
+	height: 30px;
+	line-height: 20px;
+	outline: none;
+	border-radius: 4px;
+	background-color: #E843BB;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+	margin: 60px 80px 0px 0px;
+
+}
+.register{
+	width: 54px;
+	height: 20px;
+	display: block;
+	margin-right: 4px;
+	margin-top: 10px;
+	color: #e843bb;
+	}
+/***************************登录页面样式代码--end*********************/
+/************************关于八厘米样式代码--start****************/
+.about_title,
+.tea_title{
+	height: 172px;
+}
+.about_text{
+	height: 100px;
+}
+.about_content{
+	width: 100%;
+	height: 890px;
+	margin-top: 14px;
+}
+.company,
+.company_linian{
+	width: 900px;
+	height: 276px;
+	border-bottom: 1px solid #E3E3E3;
+}
+
+.company_title{
+	margin-top: 40px;
+}
+
+.company_content,
+.company_linina_content{
+	width: 840px;
+	height: 210px;
+	margin-top: 20px;
+}
+.company_linian_title{
+	margin-top: 20px;
+}
+.company_linian_title h3{
+	width: 210px;
+	height: 20px;
+	color: #e843bb;
+	font-size: 16px;	
+}
+
+.address{
+	width: 100%;
+	height: 230px;
+	margin-top: 44px;
+}
+.address_phone{
+	margin-top: 40px;
+}
+.address_content{
+	width: 100%;
+	height: 154px;
+	margin: 60px auto;
+	border-bottom: 1px solid #E3E3E3;
+	
+}
+.address_content p{
+	text-align: left;
+	margin-left: 236px;
+	height: 24px;
+	line-height: 24px;
+}
+/************************关于八厘米样式代码--end****************/
+
+
+/************************戏剧茶馆--start****************/
+.tea_title{
+	margin: 20px 0px 0px 10px;
+}
+.tea_img{
+	width: 376px;
+	height: 189px;
+}
+.tea_img a{
+	width: 376px;
+	height: 189px;
+	display: inline-block;
+}
+.tea_text{
+	width: 544px;
+	height: 100px;
+	margin: 48px 0px 0px 40px;
+}
+.tea_text strong{
+	font-size: 14px;
+	height: 20px;
+	line-height: 20px;
+	font-weight: bold;
+}
+.tea_text p{
+	height: 24px;
+	line-height: 24px;
+}
+.recommend{
+	width: 100%;
+	height: 170px;
+	margin-top: 10px;
+	}
+.recommend_title{
+	margin-top: 50px;
+}
+.recommend_img{
+	width: 195px;
+	height: 135px;
+	margin: 16px 0px 0px 10px;
+}
+.recommend_img a{
+	width: 195px;
+	height:135px;
+	display: inline-block;
+}
+.recommend_text{
+	width: 716px;
+	height: 94px;
+	margin:30px 0px 0px 20px;
+}
+.recommend_text p{
+	height: 24px;
+	line-height: 24px;
+}
+
+.red_tea{
+	width: 100%;
+	height: 740px;
+	margin-top: 30px;
+	border-bottom: 1px solid #191919;
+}
+.red_tea_title{
+	width: 100%;
+	height: 28px;
+	border-bottom: 1px solid #191919;
+}
+.red_tea_title h3{
+	width: 100%;
+	height: 22px;
+	color: #e843bb;
+	font-size: 16px;
+	padding-left: 6px;
+	letter-spacing: 4px;
+}
+
+.tea_list{
+	width: 100%;
+	height: 548px;
+	margin-top: 34px;
+}
+.tea_list ul{
+	width: 980px;
+	height: 570px;
+}
+.tea_list ul li{
+	float: left;
+	width: 236px;
+	height: 256px;
+	margin-right: 9px;
+	text-align: center;
+	margin-bottom: 34px;
+}
+.tea_list ul li .tea_img1{
+	width: 150px;
+	height: 155px;
+	display: inline-block;
+}
+.tea_list ul li .tea_list_text{
+	margin-top: 6px;
+}
+.tea_list ul li .tea_list_text span{
+	color: #3d3e45;
+	font-size: 12px;
+}
+.tea_list ul li strong{
+	width: 49px;
+	height: 20px;
+	display: inline-block;
+	color: #e146b1;
+	font-size: 14px;
+	margin-top:6px;
+	text-align: center;	
+}
+.tea_link{
+	width: 100px;
+	height: 34px;
+	line-height: 34px;
+	display: block;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #e146b1;
+	border-radius: 6px;
+	margin-left: 70px;
+	margin-top: 10px;
+}
+.page_list{
+	width: 450px;
+	height: 40px;
+	margin-top: 36px;
+}
+.page_list ul{
+	width: 450px;
+	height: 40px;
+}
+.page_list ul li{
+	width: 30px;
+	height: 30px;
+	float: left;
+	border: 1px solid #ccc;
+	margin-left: 3px;
+}
+.page_list ul li a{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	color:#005aa0;
+	font-weight: bold;
+	padding-left: 10px;
+}
+.page_list ul li.prev_up,
+.page_list ul li.prev_down{
+	width: 68px;
+	height: 30px;
+}
+.page_list ul li .prev{
+	padding-left: 6px;
+}
+.page_list ul li .icon_page,
+.page_list ul li .icon_next{
+ width: 0px;
+ height: 0px;
+ display: inline-block;
+ border-color: transparent #ff6400 transparent transparent;
+ border-width: 6px;
+ border-style: dashed solid dashed dashed;
+
+}
+.page_list ul li .icon_next{
+	border-color: transparent transparent transparent #ff6400;
+	border-style: dashed dashed dashed solid;
+	margin-left: 4px;
+	
+}
+.page_list ul li a:hover{
+	color: #ff6400;
+	font-weight: 700;
+}
+
+.drama{
+	width: 100%;
+	height: 186px;
+	margin-top: 36px;
+}
+.drama .drama_title{
+	width: 210px;
+	height: 20px;
+	padding-bottom: 10px;
+	background: url(../imgs/baline.png) no-repeat bottom;
+}
+.drama .drama_title h3{
+	width: 210px;
+	height: 22px;
+	color: #e843bb;
+	font-size: 16px;
+	padding-left: 6px;
+	letter-spacing: 4px;
+}
+.drama_content{
+	width: 100%;
+	height: 142px;
+	margin-top: 14px;
+}
+.drama_img{
+	width: 195px;
+	height: 140px;
+}
+.drama_img a{
+	width: 195px;
+	height: 140px;
+	display: inline-block;
+}
+.drama_text{
+	width: 730px;
+	height: 100px;
+	margin-top: 24px;
+	margin-left: 40px;
+}
+.drama_text p{
+	height: 24px;
+	line-height: 24px;
+}
+.drama_bottom{
+	width: 100%;
+	height: 254px;
+	margin: 38px 0px 60px 0px;
+}
+.drama_left,
+.drama_right{
+	width: 480px;
+	height: 252px;
+}
+.drama_left .drama_left_img,
+.drama_right_img{
+	width: 95px;
+	height: 249px;
+	border-left: 1px solid #d5d5d5;
+	padding-left: 4px;
+}
+.drama_left .drama_left_img a,
+.drama_right_img a{
+	width: 95px;
+	height: 249px;
+	display: inline-block;
+}
+.drama_left .drama_left_text a:hover,
+.drama_right .drama_right_text a:hover{
+	color:#E146B1;
+}
+.drama_left_text,
+.drama_right_text{
+	width: 314px;
+	height: 190px;
+	margin: 30px 0px 0px 14px;
+}
+.drama_left_text ul,
+.drama_right_text ul{
+	width: 306px;
+	height: 172px;
+}
+.icon_drama{
+	width: 4px;
+	height: 4px;
+	display: inline-block;
+	background-color: #4b4e5b;
+	margin-right: 8px;
+	margin-top: 2px;
+}
+.drama_left_text ul li,
+.drama_right_text ul li{
+	width: 282px;
+	height: 24px;
+	line-height: 24px;
+}
+/************************戏剧茶馆--end****************/
+/************************戏剧工场--start*****************/
+.factory_title,
+.sunday_info{
+	width: 100%;
+	height: 164px;
+	margin-top: 32px;
+}
+.factory_img{
+	width: 270px;
+	height: 169px;
+	margin-left: 18px;
+}
+.factory_img a{
+	width: 270px;
+	height: 169px;
+	display: inline-block;
+}
+.factory_text,
+.sunday_text{
+	width: 632px;
+	height: 84px;
+	margin: 40px 0px 0px 32px;
+}
+.factory_text strong{
+	font-size: 14px;
+	height: 20px;
+	line-height: 20px;
+	font-weight: bold;
+}
+.factory_text p,
+.sunday_text .sunday_content_text{
+	height: 20px;
+	line-height: 20px;
+	color: #4b4e5b;
+	text-indent: 1em;
+}
+.factory_left_top{
+	width: 630px;
+	height: 725px;
+	margin-top: 52px;
+}
+.factory{
+	width: 660px;
+	height: 1510px;
+	border-right: 1px solid #777;
+	clear: both;
+	margin-bottom: 76px;
+}
+.new_play{
+	width: 100%;
+	height: 190px;
+}
+.factory_head{
+	width: 218px;
+	height: 30px;
+	background: url(../imgs/baline.png) no-repeat bottom;
+}
+.factory_head h3{
+	color: #E146B1;
+	letter-spacing: 2px;
+	padding-left: 2px;
+	font-size: 20px;
+}
+.factory_top_img{
+	width: 192px;
+	height: 136px;
+	margin: 20px 0px 0px 26px;
+}
+.factory_top_img a{
+	width: 192px;
+	height: 136px;
+	display: inline-block;
+}
+.factory_top_text{
+	width: 354px;
+	height: 136px;
+	margin-top: 16px;
+	margin-left: 32px;
+}
+
+.new_near{
+	width: 100%;
+	height: 246px;
+	margin-top: 30px;
+}
+.new_near_head{
+	width: 218px;
+	height: 20px;
+	line-height: 20px;
+	margin-left: 23px;
+}
+.new_near_head h3{
+	font-size: 16px;
+	color: #E146B1;
+}
+.new_near_img{
+	width: 261px;
+	height: 167px;
+	margin: 12px 0px 0px 23px;
+}
+.new_near_img a{
+	width: 261px;
+	height: 167px;
+	display: inline-block;
+}
+.new_near_link,
+.new_bottom_link{
+	width:90px ;
+	height: 32px;
+	line-height: 32px;
+	display: block;
+	border-radius: 4px;
+	background-color: #E843BB;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+	margin-right: 130px;
+}
+.new_near_text,
+.new_bottom_text{
+	width: 311px;
+	height: 164px;
+	margin: 24px 0px 0px 24px;
+}
+
+.new_near_text h4,
+.new_bottom_text h4{
+	font-size: 14px;
+	color: #E146B1;
+}
+.new_near_text p,
+.factory_top_text p{
+	height: 20px;
+	line-height: 20px;
+}
+.new_bottom{
+	width: 100%;
+	height: 240px;
+	margin-top: 27px;
+	border-bottom: 1px solid #191919;
+}
+.new_bottom_img{
+	width: 254px;
+	height: 167px;
+	margin-left: 23px;
+}
+.new_bottom_img a{
+	width: 254px;
+	height: 167px;
+	display: inline-block;
+}
+.new_bottom_text{
+	width: 290px;
+	height: 167px;
+}
+.new_bottom_text{
+	height: 144px;
+}
+.factory_left_bottom{
+	margin-top: 30px;
+}
+.new_bottom_line{
+	border-bottom: none;
+}
+
+/******************右侧新闻动态部分--start*****************/
+.news_active{
+	width: 300px;
+	height: 1200px;
+	
+}
+.news_active_top,
+.news_active_bottom{
+	width: 278px;
+	height: 178px;
+	margin-left: 22px;
+}
+.news_active_title,
+.news_active_bottom_title{
+	width: 212px;
+	height: 38px;
+	line-height: 38px;
+	background: url(../imgs/baline.png) no-repeat bottom;
+}
+.news_active_title h2,
+.news_active_bottom_title h2{
+	color: #E146B1;
+	letter-spacing: 4px;
+}
+.news_active_list ul,
+.news_active_bottom_list ul{
+	margin-top: 26px;
+}
+.news_active_list ul li,
+.news_active_bottom_list ul li{
+	height: 24px;
+	line-height: 24px;
+}
+.news_active_list ul li a:hover,
+.news_active_bottom_list ul li a:hover{
+	color: #E146B1;
+}
+.news_playback{
+	margin-top: 46px;
+	
+}
+.news_active_bottom{
+	height: 972px;
+	position: relative;
+	}
+.news_page{
+	width: 248px;
+	height: 26px;
+	margin: 52px 0px 0px 40px;
+}
+.news_page a{
+	color: #E146B1;
+	margin-right: 6px;
+}
+/******************右侧新闻动态部分--end*****************/
+/************************戏剧工场--end*****************/
+
+
+/*******************注册页面--start*********************/
+.msg_user_number,
+.msg_password,
+.msg_comit,
+.msg_name,
+.msg_phone{
+	display: inline-block;
+	width: 125px;
+	height: 20px;
+	line-height: 20px;
+	margin-left: 4px;
+	color: red;
+	display: none;/*隐藏不占位*/
+}
+.yanzheng_msg{
+	margin-left: 6px;
+}
+.register_form{
+	width: 530px;
+	height: 350px;
+	margin: 80px 0px 0px 250px;
+	}
+.register_form .user_id,
+.user_password,.user_comit,.user_name,.user_phone,
+.user_yanzheng{
+	width: 296px;
+	height: 35px;
+	line-height: 35px;
+	margin-left: 14px;
+	outline: none;
+	text-indent: 6px;
+	margin-bottom: 8px;
+	background: url(../imgs/loginbg01.gif) no-repeat;
+}
+.register_form span{
+    width: 69px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	display: inline-block;
+	color: #484848;
+	text-align: right;
+
+}
+.register_form input.register_submit{
+	width: 102px;
+	height: 34px;
+	background-color: #e843bb;
+	border-radius: 6px;
+	margin: 20px 244px 0px 0px;
+	cursor: pointer;
+	color: #fff;
+	font-weight: bold;
+}
+.register_wrap{
+	height: 570px;
+}
+/*******************注册页面--end*********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

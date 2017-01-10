@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin:0; padding:0; font-family: "微软雅黑"; font-size:12px; color:#4b4e5b; vertical-align:middle;}
+div,form,ul,li,dl,dd,dt,h1,h2,h3,h4,h5,h6,p,img,input,span{ margin:0; padding:0; border:0; list-style:none;}
+ul,li{padding:0px;margin:0px;list-style-type:none;}
+.clear{clear:both; font-size:0px; line-height:0px; width:0px; height:0px; visibility:hidden;}
+a{
+   color:#4b4e5b; text-decoration:none;cursor: pointer;}
